@@ -1,0 +1,54 @@
+2024-11-27T04:50:26.835+03:00  INFO 23392 --- [main] com.api.tika.TikaApplication             : Starting TikaApplication using Java 21.0.3 with PID 23392 (D:\upwork\projects\springBoot\tika\target\classes started by ephremd in D:\upwork\projects\springBoot\tika)
+2024-11-27T04:50:26.838+03:00  INFO 23392 --- [main] com.api.tika.TikaApplication             : The following 1 profile is active: "dev"
+2024-11-27T04:50:28.231+03:00  INFO 23392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27T04:50:28.322+03:00  INFO 23392 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2024-11-27T04:50:29.217+03:00  INFO 23392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8100 (http)
+2024-11-27T04:50:29.249+03:00  INFO 23392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T04:50:29.249+03:00  INFO 23392 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-11-27T04:50:29.397+03:00  INFO 23392 --- [main] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-11-27T04:50:29.398+03:00  INFO 23392 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2466 ms
+2024-11-27T04:50:29.611+03:00  INFO 23392 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27T04:50:29.693+03:00  INFO 23392 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-27T04:50:29.744+03:00  INFO 23392 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-27T04:50:30.102+03:00  INFO 23392 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27T04:50:30.140+03:00  INFO 23392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-27T04:50:30.545+03:00  INFO 23392 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@9ebffdf
+2024-11-27T04:50:30.546+03:00  INFO 23392 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-27T04:50:30.841+03:00  WARN 23392 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-27T04:50:32.598+03:00  INFO 23392 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27T04:50:33.057+03:00  INFO 23392 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27T04:50:33.413+03:00  INFO 23392 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-27T04:50:34.197+03:00  INFO 23392 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-11-27T04:50:34.198+03:00  WARN 23392 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-27T04:50:34.357+03:00  WARN 23392 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27T04:50:35.333+03:00  INFO 23392 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8100 (http) with context path '/api/pdfbox'
+2024-11-27T04:50:35.364+03:00  INFO 23392 --- [main] com.api.tika.TikaApplication             : Started TikaApplication in 9.379 seconds (process running for 10.514)
+2024-11-27T04:50:51.730+03:00  INFO 23392 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27T04:50:51.735+03:00  INFO 23392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-27T04:50:51.748+03:00  INFO 23392 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-27T04:51:00.704+03:00  INFO 12168 --- [main] com.api.tika.TikaApplication             : Starting TikaApplication using Java 21.0.3 with PID 12168 (D:\upwork\projects\springBoot\tika\target\classes started by ephremd in D:\upwork\projects\springBoot\tika)
+2024-11-27T04:51:00.709+03:00  INFO 12168 --- [main] com.api.tika.TikaApplication             : The following 1 profile is active: "dev"
+2024-11-27T04:51:01.914+03:00  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-27T04:51:02.009+03:00  INFO 12168 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 3 JPA repository interfaces.
+2024-11-27T04:51:02.913+03:00  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8100 (http)
+2024-11-27T04:51:02.928+03:00  INFO 12168 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-27T04:51:02.928+03:00  INFO 12168 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-11-27T04:51:03.067+03:00  INFO 12168 --- [main] o.a.c.c.C.[.[localhost].[/api/pdfbox]    : Initializing Spring embedded WebApplicationContext
+2024-11-27T04:51:03.068+03:00  INFO 12168 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2265 ms
+2024-11-27T04:51:03.270+03:00  INFO 12168 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-27T04:51:03.349+03:00  INFO 12168 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-11-27T04:51:03.402+03:00  INFO 12168 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-27T04:51:03.762+03:00  INFO 12168 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-27T04:51:03.803+03:00  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-27T04:51:04.047+03:00  INFO 12168 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@beb599da
+2024-11-27T04:51:04.049+03:00  INFO 12168 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-27T04:51:04.102+03:00  WARN 12168 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-11-27T04:51:05.459+03:00  INFO 12168 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-27T04:51:05.571+03:00  INFO 12168 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-27T04:51:05.879+03:00  INFO 12168 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-11-27T04:51:06.582+03:00  INFO 12168 --- [main] eAuthenticationProviderManagerConfigurer : Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-11-27T04:51:06.583+03:00  WARN 12168 --- [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used for username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider.
+2024-11-27T04:51:06.744+03:00  WARN 12168 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-27T04:51:07.706+03:00  INFO 12168 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8100 (http) with context path '/api/pdfbox'
+2024-11-27T04:51:07.728+03:00  INFO 12168 --- [main] com.api.tika.TikaApplication             : Started TikaApplication in 7.854 seconds (process running for 8.893)
+2024-11-27T04:51:08.029+03:00 DEBUG 12168 --- [main] org.hibernate.SQL                        : select r1_0.id,r1_0.created_date,r1_0.last_modified_date,r1_0.name from role r1_0 where r1_0.name=?

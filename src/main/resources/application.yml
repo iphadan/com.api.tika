@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 50MB
+      max-request-size : 50MB
+#springdoc.default-media-type: application/json
+
+
+
+server:
+  servlet:
+    context-path: /api/pdfbox/
